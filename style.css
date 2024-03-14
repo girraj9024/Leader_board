@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./cricketer.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#wrapper
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#leaderboard
+{
+    width: 90vw;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: black;
+    border-radius: 15px;
+
+}
+form{
+    text-align: center;
+
+}
+form input, form select{
+    padding: 10px;
+    border-radius: 5px;
+}
+table{
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+th, td{
+    padding: 5px;
+}
+.circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.div#leaderbord {
+    margin-top: 100px;
+}
